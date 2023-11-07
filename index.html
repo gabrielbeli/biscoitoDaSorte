@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biscoito da Sorte</title>
+  
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main>
+
+    <div class="screen1">
+
+     <h1>Qual a sua sorte de hoje</h1>
+     <p>Abra o biscoito e descubra!</p>
+
+     <img id="cookie1" src="./assets/fortune-cookie.png" alt="imagem biscoito" onclick="handleTryClick()" >
+    
+    </div>
+
+    <div class="screen2 hide">
+
+      <h2>Aqui está a sua sorte de hoje!</h2>      
+      <p>"Você não pode entrar no mesmo rio duas vezes! Aproveite para nadar o hoje!"</p>
+      <img id="cookie2" src="./assets/opened-cookie.png" alt="imagem biscoito quebrado">
+      <button id="btnReset">Abrir outro biscoito</button>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+  
+</body>
+</html>
